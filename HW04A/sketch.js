@@ -1,11 +1,7 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(240,240,240);
+  background(240, 240, 240);
   noFill();
-
-
-
-
 
   // draw a column of rows
   for (let y = 10; y < windowHeight; y += 30) {
@@ -14,17 +10,25 @@ function setup() {
       let rr = random(255);
       let rg = random(255);
       let rb = random(255);
-    
+
       stroke(rr, rg, rb);
-      rect(x, y,20,20,2,2,2,2);
+      push();
       let c = random(10);
       strokeWeight(c);
-
+      translate(x, y);
+      angleMode(DEGREES);
+      let d = random(15);
+      let e = random(-15);
+      let de = random([-15,15]);
+      if (de > 0) {
+        rotate(d);
+      } else {
+        rotate(e);
+      }
+      rect(0, 0, 22, 22, 2, 2, 2, 2);
+      pop();
     }
   }
-
 }
 
-function draw() {
-
-}
+function draw() {}
