@@ -30,7 +30,7 @@ function setup() {
       let shapeType = random(["rect", "circle", "triangle"]); // Random shape type
 
       // Randomly draw either a rectangle, circle, or triangle
-      if (shapeType === "rect") {
+      //if (shapeType === "rect") {
         rect(
           0,
           0,
@@ -41,11 +41,11 @@ function setup() {
           random(0, 10),
           random(0, 10)
         );
-      } else if (shapeType === "circle") {
-        ellipse(0, 0, shapeSize);
-      } else if (shapeType === "triangle") {
-        triangle(0, 0, shapeSize, 0, shapeSize / 2, shapeSize);
-      }
+      //} else if (shapeType === "circle") {
+        //ellipse(0, 0, shapeSize);
+      //} else if (shapeType === "triangle") {
+       // triangle(0, 0, shapeSize, 0, shapeSize / 2, shapeSize);
+      //}
 
       pop();
     }
