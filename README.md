@@ -24,14 +24,18 @@ I chose    "164": {
         "description": "A black outlined square with a red horizontal line centered on the axis between the midpoint of the left side and the midpoint of the right side and a red diagonal line centered on the axis between the lower left and upper right corners."
     }
 1. draw the pattern
+
     <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/yDQt7vQ9/pattern.png" alt="pattern"/></a><br/><br/>
 
 2. Spread across the screen and randomize size and spacing
+
 <a href="https://postimg.cc/SXn5RC3P" target="_blank"><img src="https://i.postimg.cc/SXn5RC3P/image4.png" alt="image4"/></a><br/><br/>
 
 3. Copy and rotate 8 times
+
 <a href="https://postimg.cc/Q95yksXk" target="_blank"><img src="https://i.postimg.cc/Q95yksXk/image5.png" alt="image5"/></a><br/><br/>
 
 4.Randomize the number of rotations
+
 <a href="https://postimg.cc/d7gfyDKV" target="_blank"><img src="https://i.postimg.cc/d7gfyDKV/image6.png" alt="image6"/></a><br/><br/>
 
