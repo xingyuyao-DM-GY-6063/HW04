@@ -39,3 +39,5 @@ I chose    "164": {
 
 <a href="https://postimg.cc/d7gfyDKV" target="_blank"><img src="https://i.postimg.cc/d7gfyDKV/image6.png" alt="image6"/></a><br/><br/>
 
+The final pattern reminds me of Chinese New Year's window flowers and paper cuttings :）
+
