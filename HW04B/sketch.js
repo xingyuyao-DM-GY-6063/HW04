@@ -1,22 +1,23 @@
 function patternA(x, y, z, z) {
   strokeWeight(2);
-  stroke(0); // 设置线条颜色为黑色
-  noFill(); // 不填充正方形
+  stroke(0); 
+  noFill(); 
   rectMode(CENTER);
-  rect(x, y, z, z); // 绘制正方形
+  rect(x, y, z, z); 
 
-  stroke(255, 0, 0); // 设置线条颜色为红色
-  let midLeftX = x - z / 2; // 左侧中点的x坐标
-  let midLeftY = y; // 左侧中点的y坐标
-  let midRightX = x + z / 2; // 右侧中点的x坐标
-  let midRightY = y; // 右侧中点的y坐标
-  line(midLeftX, midLeftY, midRightX, midRightY); // 绘制水平线
-  // 红色对角线（左下角到右上角）
-  let bottomLeftX = x - z / 2; // 左下角的x坐标
-  let bottomLeftY = y - z / 2; // 左下角的y坐标
-  let topRightX = x + z / 2; // 右上角的x坐标
-  let topRightY = y + z / 2; // 右上角的y坐标
-  line(bottomLeftX, bottomLeftY, topRightX, topRightY); // 绘制对角线
+  stroke(255, 0, 0); 
+  let midLeftX = x - z / 2; 
+  let midLeftY = y; 
+  let midRightX = x + z / 2; 
+  let midRightY = y; 
+  line(midLeftX, midLeftY, midRightX, midRightY); //a red horizontal line
+
+  let bottomLeftX = x - z / 2; 
+  let bottomLeftY = y + z / 2; 
+  let topRightX = x + z / 2; 
+  let topRightY = y - z / 2; 
+  line(bottomLeftX, bottomLeftY, topRightX, topRightY); 
+  // a red diagonal line centered on the axis between the lower left and upper right corners
 }
 
 function setup() {
