@@ -1,64 +1,17 @@
-# p5.js multi sketch template
+# Homework 04
 
-By putting different sketch.js and index.html files in directories we can more easily switch between multiple experiments.
+HW04A:
+First I wanted to create little squares with randomly shifting strokes, then I wanted to make each little square a random color.
+In addition to these, I made each small square rotate at a different angle each, and finally I used if() to randomly change the direction of the rotation.
+https://i.postimg.cc/Fz5wG4Tm/image1.png
 
----
+增加随机性：
+1.使行间距和列间距随机，这有助于打破网格的均匀性。我一开始设置的是行间距random(25, 35)，但发现还不够随机,于是改成了random（30,60）
+2.增加随机形状：三角形和圆形(觉得画面有些杂乱，最终去除了)
+3.增加正方形随机圆角
 
-This is a README file that can be used to describe and document your assignment.
-
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
-
----
----
-
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+HW04B:
+我选择了    "164": {
+        "title": "Wall Drawing #164 (1973)",
+        "description": "A black outlined square with a red horizontal line centered on the axis between the midpoint of the left side and the midpoint of the right side and a red diagonal line centered on the axis between the lower left and upper right corners."
+    }
